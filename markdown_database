@@ -1,0 +1,17 @@
+#commands to be entered in mysql command prompt
+
+create database hhw_project;
+
+use hhw_project;
+
+create table menu(
+    Sno integer not null primary key,
+    item_name varchar(50) not null,
+    price integer(6),
+    stock integer(3),
+    vegetarian varchar(3));
+
+
+#Enter as many entries as you'd like
+
+insert into menu values(1, "tandoori mutton", 450, 4,"No");
